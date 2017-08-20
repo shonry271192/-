@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Linux Thoughts | A simple Linux blog</title>
+ <link href="http://localhost:4000/atom.xml" rel="self"/>
+ <id>http://localhost:4000</id>
+ <updated>2017-08-20T19:43:13+05:30</updated>
+ <author>
+   <name>Vinu K</name>
+   <uri>http://kevydotvinu.github.io</uri>
+   <email>kevy.vinu@gmail.com</email>
+ </author>
+
+ 
+
+ <entry>
+   <title>Install GRUB on USB drive</title>
+   <link href="http://localhost:4000/Install-GRUB-on-USB-drive"/>
+   <id>http://localhost:4000/Install-GRUB-on-USB-drive</id>
+   <updated>2017-07-12T00:00:00+05:30</updated>
+   <content type="html">&lt;p&gt;If we are having GRUB installed on our USB drive, live CD booting will be easier from ISO files. Here assuming &lt;code class=&quot;highlighter-rouge&quot;&gt;/dev/sda1&lt;/code&gt; is your device.&lt;/p&gt; &lt;p&gt;Open Terminal&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;mkdir /mnt/USB&lt;/p&gt; &lt;/blockquote&gt; &lt;blockquote&gt; &lt;p&gt;mount /dev/sda1 /mnt/USB&lt;/p&gt; &lt;/blockquote&gt; &lt;blockquote&gt; &lt;p&gt;sudo grub-install –force –no-floppy –boot-directory=/mnt/USB/boot /dev/sda&lt;/p&gt; &lt;/blockquote&gt; &lt;blockquote&gt; &lt;p&gt;cd /mnt/USB/boot/grub&lt;/p&gt; &lt;/blockquote&gt; &lt;blockquote&gt;...</content>
+ </entry>
+
+ 
+
+ <entry>
+   <title>DIY Router With Ubuntu 14.04 LTS</title>
+   <link href="http://localhost:4000/DIY-Router-With-Ubuntu-14.04-LTS"/>
+   <id>http://localhost:4000/DIY-Router-With-Ubuntu-14.04-LTS</id>
+   <updated>2017-06-18T00:00:00+05:30</updated>
+   <content type="html">&lt;p&gt;I have been using Ubuntu as my base machine for the past some years. Things have been learning from day to day since then. Recently, my thoughts have crossed the internals of routers and which turned out to be the idea of Ubuntu as a router. You would be wondering...</content>
+ </entry>
+
+ 
+
+</feed>

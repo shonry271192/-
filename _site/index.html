@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<!-- Meta -->
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+	<meta name="generator" content="Jekyll">
+
+	<title>Linux Thoughts | A simple Linux blog</title>
+
+	<!-- CSS & fonts -->
+	<link rel="stylesheet" href="/css/main.css">
+	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900,400italic%7CSignika:700,300,400,600' rel='stylesheet' type='text/css'>
+
+	<!-- RSS -->
+	<link href="/atom.xml" type="application/atom+xml" rel="alternate" title="ATOM Feed" />
+
+</head>
+
+
+<body>
+	<div id="wrap">
+	  	
+	  	<!-- Navigation -->
+	  	<nav id="nav">
+	<div id="nav-list">
+		<a href="/">Home</a>
+
+		<!-- Nav pages -->
+	  
+	    
+	  
+	    
+	      <a href="/about" title="About Me">About Me</a>
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+    
+    <!-- Nav links -->
+	  <a href="https://github.com/kevydotvinu/">GitHub</a>
+<a href="https://askubuntu.com/users/367967/vinu-kevy">AskUbuntu</a>
+
+	</div>
+  
+  <!-- Nav footer -->
+	
+	  <footer>
+	
+	<span>linuxmate</span>
+
+</footer>
+	
+
+</nav>
+
+    
+    <!-- Icon menu -->
+	  <a id="nav-menu">
+	  	<div id="menu"></div>
+	  </a>
+
+      <!-- Header -->
+      
+        <header id="header">
+	<a href="/">
+<img src="/img/downarrow.svg" alt="Emerald Logo">
+                <h1>linux<h9>mate</h9></h1>
+		<h8>A typical Linux blog</h8>	  
+	</a>
+</header>
+
+      
+
+    <!-- Main content -->
+	  <div id="container">
+		  
+		<main>
+
+			<!-- Posts -->
+<ul id="posts">
+
+	
+
+	  <li class="post">
+	  	<h2><a href="/Install-GRUB-on-USB-drive">Install GRUB on USB drive</a></h2>
+	  	<time datetime="2017-07-12T00:00:00+05:30" class="by-line">12 Jul 2017</time>
+	  	<p>If we are having GRUB installed on our USB drive, live CD booting will be easier from ISO files. Here assuming /dev/sda1 is your device.
+
+Open Terminal
+
+
+  mkdir /mnt/USB
+
+
+
+  mount /dev/sda1 /mnt/USB
+
+
+
+  sudo grub-install –force –no-floppy –boot-directory=/mnt/USB/boot /dev/sda
+
+
+
+  cd /mnt/USB/boot/grub
+
+
+
+  wget pendrivelinux.com/downloads/multibootlinux/grub.cfg
+
+
+Edit grub.cfg as per your need.
+
+Done.
+</p>
+	  </li>
+
+    
+
+	  <li class="post">
+	  	<h2><a href="/DIY-Router-With-Ubuntu-14.04-LTS">DIY Router With Ubuntu 14.04 LTS</a></h2>
+	  	<time datetime="2017-06-18T00:00:00+05:30" class="by-line">18 Jun 2017</time>
+	  	<p>I have been using Ubuntu as my base machine for the past some years. Things have been learning from day to day since then. Recently, my thoughts have crossed the internals of routers and which turned out to be the idea of Ubuntu as a router. You would be wondering...</p>
+	  </li>
+
+    
+
+</ul>
+
+
+	  </main>
+		
+		  <!-- Pagination links -->
+      
+
+	  </div>
+	    
+	    <!-- Footer -->
+	    <footer><span>© 2017 linuxmate</span></footer>
+
+	    <!-- Script -->
+      <script src="/js/main.js"></script>	
+
+
+	</div>
+</body>
+</html>

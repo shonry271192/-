@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<!-- Meta -->
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+	<meta name="generator" content="Jekyll">
+
+	<title>Install GRUB on USB drive</title>
+
+	<!-- CSS & fonts -->
+	<link rel="stylesheet" href="/css/main.css">
+	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900,400italic%7CSignika:700,300,400,600' rel='stylesheet' type='text/css'>
+
+	<!-- RSS -->
+	<link href="/atom.xml" type="application/atom+xml" rel="alternate" title="ATOM Feed" />
+
+</head>
+
+
+<body>
+	<div id="wrap">
+	  	
+	  	<!-- Navigation -->
+	  	<nav id="nav">
+	<div id="nav-list">
+		<a href="/">Home</a>
+
+		<!-- Nav pages -->
+	  
+	    
+	  
+	    
+	      <a href="/about" title="About Me">About Me</a>
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+    
+    <!-- Nav links -->
+	  <a href="https://github.com/kevydotvinu/">GitHub</a>
+<a href="https://askubuntu.com/users/367967/vinu-kevy">AskUbuntu</a>
+
+	</div>
+  
+  <!-- Nav footer -->
+	
+	  <footer>
+	
+	<span>linuxmate</span>
+
+</footer>
+	
+
+</nav>
+
+    
+    <!-- Icon menu -->
+	  <a id="nav-menu">
+	  	<div id="menu"></div>
+	  </a>
+
+      <!-- Header -->
+      
+        <header id="header">
+	<a href="/">
+<img src="/img/downarrow.svg" alt="Emerald Logo">
+                <h1>linux<h9>mate</h9></h1>
+		<h8>A typical Linux blog</h8>	  
+	</a>
+</header>
+
+      
+
+    <!-- Main content -->
+	  <div id="container">
+		  
+		<main>
+
+			<article id="post-page">
+	<h2>Install GRUB on USB drive</h2>		
+	<time datetime="2017-07-12T00:00:00+05:30" class="by-line">12 Jul 2017</time>
+	<div class="content">
+
+		<p>If we are having GRUB installed on our USB drive, live CD booting will be easier from ISO files. Here assuming <code class="highlighter-rouge">/dev/sda1</code> is your device.</p>
+
+<p>Open Terminal</p>
+
+<blockquote>
+  <p>mkdir /mnt/USB</p>
+</blockquote>
+
+<blockquote>
+  <p>mount /dev/sda1 /mnt/USB</p>
+</blockquote>
+
+<blockquote>
+  <p>sudo grub-install –force –no-floppy –boot-directory=/mnt/USB/boot /dev/sda</p>
+</blockquote>
+
+<blockquote>
+  <p>cd /mnt/USB/boot/grub</p>
+</blockquote>
+
+<blockquote>
+  <p>wget pendrivelinux.com/downloads/multibootlinux/grub.cfg</p>
+</blockquote>
+
+<p>Edit <code class="highlighter-rouge">grub.cfg</code> as per your need.</p>
+
+<p>Done.</p>
+
+		
+	</div>
+</article>
+
+
+
+	  </main>
+		
+		  <!-- Pagination links -->
+      
+
+	  </div>
+	    
+	    <!-- Footer -->
+	    <footer><span>© 2017 linuxmate</span></footer>
+
+	    <!-- Script -->
+      <script src="/js/main.js"></script>	
+
+
+	</div>
+</body>
+</html>
