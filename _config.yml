@@ -1,5 +1,5 @@
 # Site settings
-title: Linux Thoughts | A simple Linux blog
+title: linuxmate | A typical Linux blog
 description: "A typical Linux blog, write with passion."
 url: "http://kevydotvinu.github.io"
 author:
@@ -8,7 +8,7 @@ author:
   url: "http://kevydotvinu.github.io"
 
 # Build settings
-baseurl: / # Change this to your relative path (ex: /blog/), or leave just a /
+baseurl: /kevydotvinu.github.io # Change this to your relative path (ex: /blog/), or leave just a /
 markdown: kramdown
 source: .
 destination: ./_site

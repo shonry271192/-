@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
- <title>Linux Thoughts | A simple Linux blog</title>
+ <title>linuxmate | A typical Linux blog</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <id>http://localhost:4000</id>
- <updated>2017-08-20T19:43:13+05:30</updated>
+ <updated>2017-08-20T20:13:10+05:30</updated>
  <author>
    <name>Vinu K</name>
    <uri>http://kevydotvinu.github.io</uri>
