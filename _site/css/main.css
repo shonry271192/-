@@ -272,6 +272,7 @@ blockquote {
       position: static; } }
 
 #container {
+  text-align: justify;
   margin: 0 auto;
   max-width: 730px;
   padding: 0 1.5rem; }
@@ -300,10 +301,13 @@ blockquote {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 100;
     color: #222222; }
+  #header h7 {
+    text-align: justify; }
 
 /* Posts */
 #posts li {
-  list-style-type: none; }
+  list-style-type: none;
+  text-align: justify; }
 
 #post-page {
   margin-bottom: 1.5em; }

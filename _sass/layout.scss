@@ -112,6 +112,7 @@
 }
 
 #container {
+	text-align: justify;	
 	margin:0 auto;
 	max-width: 730px;
 	padding: 0 1.5rem;
@@ -146,6 +147,9 @@
         font-weight: 100;
   	color: $text-color;
   }
+h7 {
+        text-align: justify
+  }
 }
 
 /* Posts */
@@ -153,6 +157,7 @@
 #posts {
   li {
     list-style-type: none;
+    text-align: justify;
   }
 }
 
