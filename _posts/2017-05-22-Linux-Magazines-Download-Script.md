@@ -6,10 +6,10 @@ Since I have got Linux fever I have been searching for the all kind of Linux kno
 {%highlight bash linenos %}
 LinuxVoice_Magazine_Downloader () {
 mkdir -p ~/LinuxVoice
-cd ~/LinuxVoice/;
-for i in {001..050}; 
-do wget --read-timeout=5 --tries=0 -c https://www.linuxvoice.com/issues/$i/Linux-Voice-Issue-$i.pdf; 
-done;
+cd ~/LinuxVoice/
+for i in {001..050} 
+do wget --read-timeout=5 --tries=0 -c https://www.linuxvoice.com/issues/$i/Linux-Voice-Issue-$i.pdf 
+done
 cd
 }
 {%endhighlight%}
@@ -17,8 +17,8 @@ cd
 {%highlight bash linenos%}
 MagPi_Magazine_Downloader () {
 mkdir -p ~/MagPi
-cd ~/MagPi/;
-wget -c -r -A.pdf -np -nd -l1 -erobots=off https://www.raspberrypi.org/magpi-issues;
+cd ~/MagPi/
+wget -c -r -A.pdf -np -nd -l1 -erobots=off https://www.raspberrypi.org/magpi-issues
 cd
 }
 {%endhighlight%}
