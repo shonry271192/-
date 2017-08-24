@@ -23,4 +23,4 @@ cd
 }
 {%endhighlight%}
 
-New issues of Linux Voice no longer available as it merged to Linux Magazine but it worth downloading the previous issues as a Linux enthusiast.
+New issues of Linux Voice is no longer available as it merged to Linux Magazine but it worth downloading the previous issues as a Linux enthusiast.
