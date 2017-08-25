@@ -1,5 +1,5 @@
 ---
-title: Install GRUB on USB drive
+title: Install GRUB On USB Drive
 ---
 If we are having GRUB installed on our USB drive, live CD booting will be easier from ISO files. Here assuming ``/dev/sda1`` is your device.
 
