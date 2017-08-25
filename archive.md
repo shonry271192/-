@@ -1,5 +1,8 @@
 ---
-layout: post
+layout: page
 title: Archive
 ---
-[Install GRUB On USB Drive](/_posts/2017-07-12-Install-GRUB-on-USB-drive.md)
+
+### Archive
+
+[Install GRUB On USB Drive](/_post/2017-07-12-Install-GRUB-on-USB-drive.md)
