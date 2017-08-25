@@ -5,4 +5,5 @@ title: Archive
 
 ### Archive
 
-[Install GRUB On USB Drive](/_post/2017-07-12-Install-GRUB-on-USB-drive.md)
+[Install GRUB On USB Drive](/Install-GRUB-on-USB-drive.md)
+[DIY Router With Ubuntu 14.04 LTS](/DIY-Router-With-Ubuntu-14.04-LTS.md)
