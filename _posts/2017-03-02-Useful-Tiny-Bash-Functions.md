@@ -15,8 +15,8 @@ bind '"\e[B": history-search-forward'
 function countdown(){
   date1=$((`date +%s` + $1)); 
   while [ "$date1" -ne `date +%s` ];
-  do echo -ne "$(date -u --date @$(($date1 - `date +%s`)) +%H:%M:%S)\r";
-  sleep 0.1
+    do echo -ne "$(date -u --date @$(($date1 - `date +%s`)) +%H:%M:%S)\r";
+    sleep 0.1
   done
 }
 {%endhighlight%}
@@ -26,8 +26,8 @@ function countdown(){
 function stopwatch(){
   date1=`date +%s`; 
   while true; 
-  do echo -ne "$(date -u --date @$((`date +%s` - $date1)) +%H:%M:%S)\r"; 
-  sleep 0.1
+    do echo -ne "$(date -u --date @$((`date +%s` - $date1)) +%H:%M:%S)\r"; 
+    sleep 0.1
   done
 }
 {%endhighlight%}
@@ -40,7 +40,7 @@ while :;
   do paplay /usr/share/sounds/freedesktop/stereo/alarm-clock-elapsed.oga; 
   read -t 0.01 -n 1; 
   if [ $? = 0 ]; then 
-  break; 
+    break; 
   fi; 
   done
 }
