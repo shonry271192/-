@@ -14,8 +14,8 @@ bind '"\e[B": history-search-forward'
 {%highlight bash linenos%}
 function countdown(){
   date1=$((`date +%s` + $1)); 
-  while [ "$date1" -ne `date +%s` ]; do 
-  echo -ne "$(date -u --date @$(($date1 - `date +%s`)) +%H:%M:%S)\r";
+  while [ "$date1" -ne `date +%s` ];
+  do echo -ne "$(date -u --date @$(($date1 - `date +%s`)) +%H:%M:%S)\r";
   sleep 0.1
   done
 }
@@ -25,8 +25,8 @@ function countdown(){
 {%highlight bash linenos%}
 function stopwatch(){
   date1=`date +%s`; 
-  while true; do 
-  echo -ne "$(date -u --date @$((`date +%s` - $date1)) +%H:%M:%S)\r"; 
+  while true; 
+  do echo -ne "$(date -u --date @$((`date +%s` - $date1)) +%H:%M:%S)\r"; 
   sleep 0.1
   done
 }
@@ -52,8 +52,7 @@ cfu () {
   wget -qO - http://www.commandlinefu.com/commands/random/plaintext | \
   sed -n '/AD/!p' | sed -n '/commandlinefu.com/!p' | tee ~/.cfu; 
   read -p "Do you want to save? (y/n) " ans
-  if [ $ans == y ]
-    then
+  if [ $ans == y ] then
     cat ~/.cfu >> ~/Useful_Commands;
   fi
 }
