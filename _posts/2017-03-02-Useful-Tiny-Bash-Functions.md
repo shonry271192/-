@@ -4,13 +4,13 @@ title: Useful Tiny Bash Functions
 Super nerd people spend most of their time in CLI. As long as we use terminal for our needs, we can also unlock new features from it by appending some codes in `bashrc` file. Here are some examples which we can use.  
 &nbsp;
 
-####History auto-completion (type `sudo` and press up-arrow key, history includes `sudo` will come up)
+*History auto-completion (type `sudo` and press up-arrow key, history includes `sudo` will come up)*
 {%highlight bash linenos%}
 bind '"\e[A": history-search-backward'
 bind '"\e[B": history-search-forward'
 {%endhighlight%}
 
-####Countdown timer
+*Countdown timer*
 {%highlight bash linenos%}
 function countdown(){
   date1=$((`date +%s` + $1)); 
@@ -21,7 +21,7 @@ function countdown(){
 }
 {%endhighlight%}
 
-####Stopwatch
+*Stopwatch*
 {%highlight bash linenos%}
 function stopwatch(){
   date1=`date +%s`; 
@@ -32,7 +32,7 @@ function stopwatch(){
 }
 {%endhighlight%}
 
-####Alarm
+*Alarm*
 {%highlight bash linenos%}
 alarm() {
 sleep $1; 
@@ -46,7 +46,7 @@ while :;
 }
 {%endhighlight%}
 
-####Random commands from commandlinefu.com
+*Random commands from commandlinefu.com*
 {%highlight bash linenos%}
 cfu () { 
   wget -qO - http://www.commandlinefu.com/commands/random/plaintext | \
