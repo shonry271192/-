@@ -2,14 +2,11 @@
 title: Useful Tiny Bash Functions
 ---
 Super nerd people spend most of their time in CLI. As long as we use terminal for our needs, we can also unlock new features from it by appending some codes in `bashrc` file. Here are some examples which we can use.  
-&nbsp;
-
 History auto-completion (type `sudo` and press up-arrow key, history includes `sudo` will come up)
 {%highlight bash linenos%}
 bind '"\e[A": history-search-backward'
 bind '"\e[B": history-search-forward'
 {%endhighlight%}
-&nbsp;
 
 Countdown timer
 {%highlight bash linenos%}
@@ -21,7 +18,6 @@ function countdown(){
    done
 }
 {%endhighlight%}
-&nbsp;
 
 Stopwatch
 {%highlight bash linenos%}
@@ -33,7 +29,6 @@ function stopwatch(){
    done
 }
 {%endhighlight%}
-&nbsp;
 
 Alarm
 {%highlight bash linenos%}
@@ -41,7 +36,6 @@ alarm() {
 sleep $1; while :; do paplay /usr/share/sounds/freedesktop/stereo/alarm-clock-elapsed.oga; read -t 0.01 -n 1; if [ $? = 0 ]; then break; fi; done
 }
 {%endhighlight%}
-&nbsp;
 
 Random commands from commandlinefu.com
 {%highlight bash linenos%}
