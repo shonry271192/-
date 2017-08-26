@@ -5,7 +5,7 @@ title: Archive
 
 ### Archive
 
-`03 Apr 2017`<pre>	</pre>[Experience With i3 Window Manager](Experience-With-i3_Window-Manager)  
+`03 Apr 2017`&nbsp;&nbsp;[Experience With i3 Window Manager](Experience-With-i3_Window-Manager)  
 `22 May 2017`  
 [Linux Magazine Download Script](/kevydotvinu.github.io/Linux-Magazines-Download-Script)  
 `18 Jun 2017`  
