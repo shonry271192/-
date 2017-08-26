@@ -8,11 +8,14 @@ title: Contact
 ``https://twitter.com/kevy_vinu``  
 ``http://instagram.com/kevy_vinu``  
 &nbsp;
+
 &nbsp;
+
 &nbsp;
+
 &nbsp;
+
 &nbsp;
+
 &nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
+
