@@ -52,7 +52,7 @@ cfu () {
   wget -qO - http://www.commandlinefu.com/commands/random/plaintext | \
   sed -n '/AD/!p' | sed -n '/commandlinefu.com/!p' | tee ~/.cfu; 
   read -p "Do you want to save? (y/n) " ans
-  if [ $ans == y ] then
+  if [ $ans == y ]; then
     cat ~/.cfu >> ~/Useful_Commands;
   fi
 }
