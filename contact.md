@@ -15,7 +15,3 @@ title: Contact
 
 &nbsp;
 
-&nbsp;
-
-&nbsp;
-
