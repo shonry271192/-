@@ -9,11 +9,11 @@ Last time, I had trouble installing Ubuntu from minimal CD and PPPoE connection 
 
 **Usage**  
 `/connet irc.freenode.net`  
-`/join #ubuntu`  
-`/msg nickserv register email password`  
+`/nick nickname_you_want`  
+`/msg nickserv register password email@address`  
 `Alt + 2`  
 *check mail and verify*  
-`/msg nickserv identify username password`  
-`/nick nickname`  
+`/msg nickserv identify password`  
+`/join #ubuntu`  
 
 I had spent time in irc chat and found some other ideas with them. Unfortunately, I still couldn't find solution for my above mentioned problem.
