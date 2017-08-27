@@ -10,6 +10,10 @@ Last time, I had trouble installing Ubuntu from minimal CD and PPPoE connection 
 **Usage**  
 `/connet irc.freenode.net`  
 `/join #ubuntu`  
-`Alt + 2`
+`/msg nickserv register email password`  
+`Alt + 2`  
+*check mail and verify*  
+`/msg nickserv identify username password`  
+`/nick nickname`  
 
 I had spent time in irc chat and found some other ideas with them. Unfortunately, I still couldn't find solution for my above mentioned problem.
