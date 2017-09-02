@@ -16,6 +16,4 @@ title: Resources
 
 &nbsp;
 
-&nbsp;
-
 
