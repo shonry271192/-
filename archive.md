@@ -11,6 +11,7 @@ title: Archive
 `22 May 2017`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Linux Magazine Download Script](/kevydotvinu.github.io/Linux-Magazines-Download-Script)  
 `18 Jun 2017`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[DIY Router With Ubuntu 14.04 LTS](/kevydotvinu.github.io/DIY-Router-With-Ubuntu-14.04-LTS)  
 `12 Jul 2017`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Install GRUB On USB Drive](/kevydotvinu.github.io/Install-GRUB-on-USB-drive)  
+`04 Sep 2017`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Fancy Terminal](/kevydotvinu.github.io/Fancy-Terminal)  
 &nbsp;
 
 &nbsp;
