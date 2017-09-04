@@ -15,4 +15,5 @@ done
 {%endhighlight%}
 Append this script in `.bashrc` file and source the same to see the magic like this.
 &nbsp;
+
 ![hacker](img/hacker.gif)
