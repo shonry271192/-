@@ -4,7 +4,7 @@ title: Fancy Terminal
 All Hacker's movies have one thing in common which attract us most is the computer terminal that feed continuous text. Here, I have a simple script that resembles those fancies a very little.
 {%highlight bash linenos%}
 function fetch {
-while [ 0 ]; 
+while [ 0 ] 
 do wget -qO - http://www.commandlinefu.com/commands/random/plaintext | \
 grep -v questions/comments | \
 grep -v ScriptRock.com |  \
