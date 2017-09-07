@@ -14,5 +14,9 @@ Inception
 Interstellar  
 Shawshank Redemption  
 Sixth Sense  
-**Staborness**  
-Everyone should use Linux  
+**Stabbornness**  
+Everyone should try Linux  
+
+Distro |
+--- |
+Archlinux |
