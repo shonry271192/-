@@ -17,6 +17,6 @@ Sixth Sense
 **Stabbornness**  
 Everyone should try Linux  
 
-Distro |
---- |
-Archlinux |
+Distro | Interest
+--- | ---
+Archlinux | 10 %
