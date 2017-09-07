@@ -18,5 +18,5 @@ Sixth Sense
 Everyone should try Linux  
 
 Distro | Interest
---- | ---
+:--- | ---:
 Archlinux | 10 %
