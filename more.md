@@ -7,9 +7,11 @@ Ubuntu minimal and i3-gap window manager
 LaTeX Photoshop Vim Virtualbox and almost all CLI tools  
 #### Books
 The Book of Women - Osho  
-And Then There Were None - Agathe Christie  
-The Monk Who Sold His Ferrari - Robin Sharma  
-Alchemist - Poulo Coelho  
-Not much :)  
+###Movies
+Dark Knight
+Inception
+Interstellar
+Shawshank Redemption
+Sixth Sense
 ### Staborness
 Everyone should use Linux
