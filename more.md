@@ -1,6 +1,6 @@
 ---
 layout: default
-title: I am not finished
+title: About Me
 ---
 **Operating Systems**  
 Ubuntu minimal and i3-gap window manager  
