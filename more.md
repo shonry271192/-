@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Started Again
+title: I am not finished
 ---
 **Operating Systems**  
 Ubuntu minimal and i3-gap window manager  
