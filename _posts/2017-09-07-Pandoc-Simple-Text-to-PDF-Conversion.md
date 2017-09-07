@@ -19,4 +19,4 @@ In addition, pandoc can read Markdown format to enhance output.
 `Link [text](link)`  
 `Title %text`
 
-You must be wondering why do we need to learn all these to write a simple letter and why did I put the word simple in this blog title. But trust me, it'd worth learning. Markdown format will be very useful in many websites. Last but not least, I have added [here](kevydotvinu.github.io/img/pandoc.pdf) the pdf copy of this post to get convinced.
+You must be wondering why do we need to learn all these to write a simple letter and why did I put the word simple in this blog title. But trust me, it'd worth learning. Markdown format will be very useful in many websites. Last but not least, I have added [here](/img/pandoc.pdf) the pdf copy of this post to get convinced.
