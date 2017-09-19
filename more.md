@@ -2,5 +2,5 @@
 layout: default
 title: About Me
 ---
-My Linux Machine
+**Here is my Linux machine**
 ![machine](img/pc.gif)
