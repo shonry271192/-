@@ -19,4 +19,4 @@ sudo apt-get install vim-gtk
 {%endhighlight%}
 
 + vim-color-scheme
-Specific color pattern is very significant for script writers. It gives quick idea of content in the first glimpse. Although bunch of color schemes are readly available in Github repository, It is hard to go not mentioning this [one](https://github.com/jacoborus/tender.vim).
+Specific color pattern is very significant for script writers. It gives quick idea of content in the first glimpse. Although bunch of color schemes are readly available in Github repository, It is hard to go not mentioning [this](https://github.com/jacoborus/tender.vim) one.
