@@ -3,7 +3,6 @@ title: VIM Tricks
 ---
 
 Vim is a greatly improved version of the good old UNIX editor Vi. As we all need and core reason behind the choice of Linux OS is the customization. Isn't it? So is Vim. You may find common Vim tricks just by typing some keywords in the Google. Excluding that, here, I do have handful of some other.  
-&nbsp;
 
 + vim-tmux-runner  
 This is one of our favorite. As the name suggests, tmux has something to do with this. It is simple as this, whatever we type in the one pane of tmux can be thrown away to the next and execute right away. GIF image shown here will demonstrate the idea. No doubt, this will blissful for script writers. The complete instruction of installation can be found in the author Github [repository](https://github.com/christoomey/vim-tmux-runner)   
