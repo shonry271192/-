@@ -13,6 +13,7 @@ title: Archive
 `12 Jul 2017`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Install GRUB On USB Drive](/kevydotvinu.github.io/Install-GRUB-on-USB-drive)  
 `04 Sep 2017`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Fancy Terminal](/kevydotvinu.github.io/Fancy-Terminal)  
 `07 Sep 2017`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Pandoc - Simple Text to PDF Conversion](/kevydotvinu.github.io/Pandoc-Simple-Text-to-PDF-Conversion)  
+`20 Sep 2017`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[VIM Tricks](/kevydotvinu.github.io/VIM-Tricks)  
 &nbsp;
 
 &nbsp;
